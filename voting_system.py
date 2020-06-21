@@ -14,12 +14,12 @@ while True:
         if nom_1_votes>nom_2_votes:
             percent = (nom_1_votes/num_of_voter)*100
             print(nominee_1, "has won", "with",percent, "% votes")
+            break
 
         elif nom_1_votes>nom_2_votes:
             percent = (nom_2_votes/num_of_voter)*100
             print(nominee_2, "has won", "with",percent, "% votes")
-
-
+            break
 
         
     else:
